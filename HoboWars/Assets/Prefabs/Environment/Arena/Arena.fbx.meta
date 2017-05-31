@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: 1f5cbb30472728048900da3b413875a4
+timeCreated: 1491917033
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BOUNDARY_ARENA
+    100004: D
+    100006: D 1
+    100008: D 2
+    100010: D_BL_1
+    100012: D_BL_1 1
+    100014: D_BL_1 2
+    100016: D_BL_2
+    100018: D_BL_2 1
+    100020: D_BL_2 2
+    100022: D_BML_1
+    100024: D_BML_1 1
+    100026: D_BML_1 2
+    100028: D_BML_2
+    100030: D_BML_2 1
+    100032: D_BML_2 2
+    100034: D_BMR_1
+    100036: D_BMR_1 1
+    100038: D_BMR_1 2
+    100040: D_BMR_2
+    100042: D_BMR_2 1
+    100044: D_BMR_2 2
+    100046: D_BR_1
+    100048: D_BR_1 1
+    100050: D_BR_1 2
+    100052: D_BR_2
+    100054: D_BR_2 1
+    100056: D_BR_2 2
+    100058: D_L
+    100060: D_L 1
+    100062: D_L 2
+    100064: D_R
+    100066: D_R 1
+    100068: D_R 2
+    100070: FENCE_ARENA
+    100072: GEO_ARENA
+    100074: GEO_BUILDING
+    100076: GEO_STAIRS
+    100078: GROUNDPLANE_ARENA
+    100080: H_B
+    100082: H_B 1
+    100084: H_B 2
+    100086: H_L
+    100088: H_L 1
+    100090: H_L 2
+    100092: H_M
+    100094: H_M 1
+    100096: H_M 2
+    100098: H_R
+    100100: H_R 1
+    100102: H_R 2
+    100104: H_T
+    100106: H_T 1
+    100108: H_T 2
+    100110: HM
+    100112: HM 1
+    100114: HM 2
+    100116: HM_B
+    100118: HM_B 1
+    100120: HM_B 2
+    100122: HM_BB
+    100124: HM_BB 1
+    100126: HM_BB 2
+    100128: HM_M
+    100130: HM_M 1
+    100132: HM_M 2
+    100134: HM_T
+    100136: HM_T 1
+    100138: HM_T 2
+    100140: HOUSE_BUILDING
+    100142: L
+    100144: L 1
+    100146: L 2
+    100148: L_OUTPOST_BUILDING
+    100150: M
+    100152: M 1
+    100154: M 2
+    100156: POSTER_BUILDING
+    100158: R
+    100160: R 1
+    100162: R 2
+    100164: R_OUTPOST_BUILDING
+    100166: STAIRS_LEFT
+    100168: STAIRS_MIDDLE
+    100170: STAIRS_RIGHT
+    100172: steps
+    100174: steps 1
+    100176: steps 2
+    100178: V_L
+    100180: V_L 1
+    100182: V_L 2
+    100184: V_LB_corner
+    100186: V_LB_corner 1
+    100188: V_LB_corner 2
+    100190: V_LM
+    100192: V_LM 1
+    100194: V_LM 2
+    100196: V_LT
+    100198: V_LT 1
+    100200: V_LT 2
+    100202: V_M
+    100204: V_M 1
+    100206: V_M 2
+    100208: V_R
+    100210: V_R 1
+    100212: V_R 2
+    100214: V_RB_corner
+    100216: V_RB_corner 1
+    100218: V_RB_corner 2
+    100220: V_RM
+    100222: V_RM 1
+    100224: V_RM 2
+    100226: V_RT
+    100228: V_RT 1
+    100230: V_RT 2
+    100232: VM
+    100234: VM 1
+    100236: VM 2
+    100238: WALLS_BUILDING
+    400000: //RootNode
+    400002: BOUNDARY_ARENA
+    400004: D
+    400006: D 1
+    400008: D 2
+    400010: D_BL_1
+    400012: D_BL_1 1
+    400014: D_BL_1 2
+    400016: D_BL_2
+    400018: D_BL_2 1
+    400020: D_BL_2 2
+    400022: D_BML_1
+    400024: D_BML_1 1
+    400026: D_BML_1 2
+    400028: D_BML_2
+    400030: D_BML_2 1
+    400032: D_BML_2 2
+    400034: D_BMR_1
+    400036: D_BMR_1 1
+    400038: D_BMR_1 2
+    400040: D_BMR_2
+    400042: D_BMR_2 1
+    400044: D_BMR_2 2
+    400046: D_BR_1
+    400048: D_BR_1 1
+    400050: D_BR_1 2
+    400052: D_BR_2
+    400054: D_BR_2 1
+    400056: D_BR_2 2
+    400058: D_L
+    400060: D_L 1
+    400062: D_L 2
+    400064: D_R
+    400066: D_R 1
+    400068: D_R 2
+    400070: FENCE_ARENA
+    400072: GEO_ARENA
+    400074: GEO_BUILDING
+    400076: GEO_STAIRS
+    400078: GROUNDPLANE_ARENA
+    400080: H_B
+    400082: H_B 1
+    400084: H_B 2
+    400086: H_L
+    400088: H_L 1
+    400090: H_L 2
+    400092: H_M
+    400094: H_M 1
+    400096: H_M 2
+    400098: H_R
+    400100: H_R 1
+    400102: H_R 2
+    400104: H_T
+    400106: H_T 1
+    400108: H_T 2
+    400110: HM
+    400112: HM 1
+    400114: HM 2
+    400116: HM_B
+    400118: HM_B 1
+    400120: HM_B 2
+    400122: HM_BB
+    400124: HM_BB 1
+    400126: HM_BB 2
+    400128: HM_M
+    400130: HM_M 1
+    400132: HM_M 2
+    400134: HM_T
+    400136: HM_T 1
+    400138: HM_T 2
+    400140: HOUSE_BUILDING
+    400142: L
+    400144: L 1
+    400146: L 2
+    400148: L_OUTPOST_BUILDING
+    400150: M
+    400152: M 1
+    400154: M 2
+    400156: POSTER_BUILDING
+    400158: R
+    400160: R 1
+    400162: R 2
+    400164: R_OUTPOST_BUILDING
+    400166: STAIRS_LEFT
+    400168: STAIRS_MIDDLE
+    400170: STAIRS_RIGHT
+    400172: steps
+    400174: steps 1
+    400176: steps 2
+    400178: V_L
+    400180: V_L 1
+    400182: V_L 2
+    400184: V_LB_corner
+    400186: V_LB_corner 1
+    400188: V_LB_corner 2
+    400190: V_LM
+    400192: V_LM 1
+    400194: V_LM 2
+    400196: V_LT
+    400198: V_LT 1
+    400200: V_LT 2
+    400202: V_M
+    400204: V_M 1
+    400206: V_M 2
+    400208: V_R
+    400210: V_R 1
+    400212: V_R 2
+    400214: V_RB_corner
+    400216: V_RB_corner 1
+    400218: V_RB_corner 2
+    400220: V_RM
+    400222: V_RM 1
+    400224: V_RM 2
+    400226: V_RT
+    400228: V_RT 1
+    400230: V_RT 2
+    400232: VM
+    400234: VM 1
+    400236: VM 2
+    400238: WALLS_BUILDING
+    2300000: BOUNDARY_ARENA
+    2300002: D_BL_1
+    2300004: D_BL_1 1
+    2300006: D_BL_1 2
+    2300008: D_BL_2
+    2300010: D_BL_2 1
+    2300012: D_BL_2 2
+    2300014: D_BML_1
+    2300016: D_BML_1 1
+    2300018: D_BML_1 2
+    2300020: D_BML_2
+    2300022: D_BML_2 1
+    2300024: D_BML_2 2
+    2300026: D_BMR_1
+    2300028: D_BMR_1 1
+    2300030: D_BMR_1 2
+    2300032: D_BMR_2
+    2300034: D_BMR_2 1
+    2300036: D_BMR_2 2
+    2300038: D_BR_1
+    2300040: D_BR_1 1
+    2300042: D_BR_1 2
+    2300044: D_BR_2
+    2300046: D_BR_2 1
+    2300048: D_BR_2 2
+    2300050: D_L
+    2300052: D_L 1
+    2300054: D_L 2
+    2300056: D_R
+    2300058: D_R 1
+    2300060: D_R 2
+    2300062: FENCE_ARENA
+    2300064: GROUNDPLANE_ARENA
+    2300066: H_B
+    2300068: H_B 1
+    2300070: H_B 2
+    2300072: H_L
+    2300074: H_L 1
+    2300076: H_L 2
+    2300078: H_M
+    2300080: H_M 1
+    2300082: H_M 2
+    2300084: H_R
+    2300086: H_R 1
+    2300088: H_R 2
+    2300090: H_T
+    2300092: H_T 1
+    2300094: H_T 2
+    2300096: HM_B
+    2300098: HM_B 1
+    2300100: HM_B 2
+    2300102: HM_BB
+    2300104: HM_BB 1
+    2300106: HM_BB 2
+    2300108: HM_M
+    2300110: HM_M 1
+    2300112: HM_M 2
+    2300114: HM_T
+    2300116: HM_T 1
+    2300118: HM_T 2
+    2300120: HOUSE_BUILDING
+    2300122: L_OUTPOST_BUILDING
+    2300124: POSTER_BUILDING
+    2300126: R_OUTPOST_BUILDING
+    2300128: V_L
+    2300130: V_L 1
+    2300132: V_L 2
+    2300134: V_LB_corner
+    2300136: V_LB_corner 1
+    2300138: V_LB_corner 2
+    2300140: V_LM
+    2300142: V_LM 1
+    2300144: V_LM 2
+    2300146: V_LT
+    2300148: V_LT 1
+    2300150: V_LT 2
+    2300152: V_M
+    2300154: V_M 1
+    2300156: V_M 2
+    2300158: V_R
+    2300160: V_R 1
+    2300162: V_R 2
+    2300164: V_RB_corner
+    2300166: V_RB_corner 1
+    2300168: V_RB_corner 2
+    2300170: V_RM
+    2300172: V_RM 1
+    2300174: V_RM 2
+    2300176: V_RT
+    2300178: V_RT 1
+    2300180: V_RT 2
+    2300182: WALLS_BUILDING
+    3300000: BOUNDARY_ARENA
+    3300002: D_BL_1
+    3300004: D_BL_1 1
+    3300006: D_BL_1 2
+    3300008: D_BL_2
+    3300010: D_BL_2 1
+    3300012: D_BL_2 2
+    3300014: D_BML_1
+    3300016: D_BML_1 1
+    3300018: D_BML_1 2
+    3300020: D_BML_2
+    3300022: D_BML_2 1
+    3300024: D_BML_2 2
+    3300026: D_BMR_1
+    3300028: D_BMR_1 1
+    3300030: D_BMR_1 2
+    3300032: D_BMR_2
+    3300034: D_BMR_2 1
+    3300036: D_BMR_2 2
+    3300038: D_BR_1
+    3300040: D_BR_1 1
+    3300042: D_BR_1 2
+    3300044: D_BR_2
+    3300046: D_BR_2 1
+    3300048: D_BR_2 2
+    3300050: D_L
+    3300052: D_L 1
+    3300054: D_L 2
+    3300056: D_R
+    3300058: D_R 1
+    3300060: D_R 2
+    3300062: FENCE_ARENA
+    3300064: GROUNDPLANE_ARENA
+    3300066: H_B
+    3300068: H_B 1
+    3300070: H_B 2
+    3300072: H_L
+    3300074: H_L 1
+    3300076: H_L 2
+    3300078: H_M
+    3300080: H_M 1
+    3300082: H_M 2
+    3300084: H_R
+    3300086: H_R 1
+    3300088: H_R 2
+    3300090: H_T
+    3300092: H_T 1
+    3300094: H_T 2
+    3300096: HM_B
+    3300098: HM_B 1
+    3300100: HM_B 2
+    3300102: HM_BB
+    3300104: HM_BB 1
+    3300106: HM_BB 2
+    3300108: HM_M
+    3300110: HM_M 1
+    3300112: HM_M 2
+    3300114: HM_T
+    3300116: HM_T 1
+    3300118: HM_T 2
+    3300120: HOUSE_BUILDING
+    3300122: L_OUTPOST_BUILDING
+    3300124: POSTER_BUILDING
+    3300126: R_OUTPOST_BUILDING
+    3300128: V_L
+    3300130: V_L 1
+    3300132: V_L 2
+    3300134: V_LB_corner
+    3300136: V_LB_corner 1
+    3300138: V_LB_corner 2
+    3300140: V_LM
+    3300142: V_LM 1
+    3300144: V_LM 2
+    3300146: V_LT
+    3300148: V_LT 1
+    3300150: V_LT 2
+    3300152: V_M
+    3300154: V_M 1
+    3300156: V_M 2
+    3300158: V_R
+    3300160: V_R 1
+    3300162: V_R 2
+    3300164: V_RB_corner
+    3300166: V_RB_corner 1
+    3300168: V_RB_corner 2
+    3300170: V_RM
+    3300172: V_RM 1
+    3300174: V_RM 2
+    3300176: V_RT
+    3300178: V_RT 1
+    3300180: V_RT 2
+    3300182: WALLS_BUILDING
+    4300000: GROUNDPLANE_ARENA
+    4300002: BOUNDARY_ARENA
+    4300004: FENCE_ARENA
+    4300006: WALLS_BUILDING
+    4300008: L_OUTPOST_BUILDING
+    4300010: R_OUTPOST_BUILDING
+    4300012: POSTER_BUILDING
+    4300014: HOUSE_BUILDING
+    4300016: V_M
+    4300018: V_R
+    4300020: V_L
+    4300022: HM_BB
+    4300024: HM_T
+    4300026: HM_M
+    4300028: HM_B
+    4300030: D_L
+    4300032: D_R
+    4300034: D_BR_1
+    4300036: D_BR_2
+    4300038: D_BMR_1
+    4300040: D_BMR_2
+    4300042: D_BL_1
+    4300044: D_BL_2
+    4300046: D_BML_1
+    4300048: D_BML_2
+    4300050: H_T
+    4300052: H_M
+    4300054: H_B
+    4300056: H_R
+    4300058: V_RB_corner
+    4300060: V_RM
+    4300062: V_RT
+    4300064: H_L
+    4300066: V_LB_corner
+    4300068: V_LM
+    4300070: V_LT
+    4300072: V_M
+    4300074: V_R
+    4300076: V_L
+    4300078: HM_BB
+    4300080: HM_T
+    4300082: HM_M
+    4300084: HM_B
+    4300086: D_L
+    4300088: D_R
+    4300090: D_BR_1
+    4300092: D_BR_2
+    4300094: D_BMR_1
+    4300096: D_BMR_2
+    4300098: D_BL_1
+    4300100: D_BL_2
+    4300102: D_BML_1
+    4300104: D_BML_2
+    4300106: H_T
+    4300108: H_M
+    4300110: H_B
+    4300112: H_R
+    4300114: V_RB_corner
+    4300116: V_RM
+    4300118: V_RT
+    4300120: H_L
+    4300122: V_LB_corner
+    4300124: V_LM
+    4300126: V_LT
+    4300128: V_M
+    4300130: V_R
+    4300132: V_L
+    4300134: HM_BB
+    4300136: HM_T
+    4300138: HM_M
+    4300140: HM_B
+    4300142: D_L
+    4300144: D_R
+    4300146: D_BR_1
+    4300148: D_BR_2
+    4300150: D_BMR_1
+    4300152: D_BMR_2
+    4300154: D_BL_1
+    4300156: D_BL_2
+    4300158: D_BML_1
+    4300160: D_BML_2
+    4300162: H_T
+    4300164: H_M
+    4300166: H_B
+    4300168: H_R
+    4300170: V_RB_corner
+    4300172: V_RM
+    4300174: V_RT
+    4300176: H_L
+    4300178: V_LB_corner
+    4300180: V_LM
+    4300182: V_LT
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

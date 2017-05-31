@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - player1
+  - player2
+  - ballKalashnikov
+  - ballBottle
+  - train
+  - ballPCMasterRace
+  - regularTrashCan
+  - goldenTrashCan
+  - ballDeadRat
+  - manager
+  - item_axe
+  - item_deadRat
+  - item_frostWand
+  - item_decapitatedHead
+  - horse
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Fence
+  - Boundaries
+  - TrashCans
+  - ThrowableItems
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
